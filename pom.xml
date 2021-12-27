@@ -16,19 +16,6 @@
         <hadoop.version>2.8.5</hadoop.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>cos-inner-maven-repository</id>
-            <name>cos-inner-maven-repository</name>
-            <url>https://mirrors.tencent.com/repository/maven/QCLOUD_COS</url>
-        </repository>
-        <snapshotRepository>
-            <id>cos-inner-maven-repository</id>
-            <name>cos-inner-maven-repository</name>
-            <url>https://mirrors.tencent.com/repository/maven/QCLOUD_COS</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
